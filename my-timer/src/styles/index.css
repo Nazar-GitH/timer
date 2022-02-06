@@ -7,7 +7,7 @@ body {
 .body {
   font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0 auto;
-  background: #f5f5f5;
+  background: #dad5d5;
   color: #4d4d4d;
   min-width: 230px;
   max-width: 550px;
@@ -22,9 +22,9 @@ body {
 .headline {
   width: 100%;
   font-size: 100px;
-  font-weight: 100;
+  font-weight: 200;
   text-align: center;
-  color: rgba(175, 47, 47, 0.15);
+  color: rgba(70, 6, 90, 0.993);
   text-rendering: optimizeLegibility;
   margin: 20px auto;
 }
@@ -35,9 +35,9 @@ body {
   font-size: 100px;
   font-weight: 100;
   text-align: center;
-  color: rgba(11, 8, 8, 0.15);
+  color: rgba(0, 0, 0, 0.753);
   text-rendering: optimizeLegibility;
-  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 25px 50px 0 rgb(0 0 0 / 10%);
+  box-shadow: 0 2px 4px 0 rgba(58, 57, 57, 0.5), 0 25px 50px 0 rgba(61, 59, 59, 0.712);
   margin: 0 auto;
 }
 
@@ -60,6 +60,8 @@ body {
 
 .button {
   border-width: 1px;
+  width: 85px;
+  height: 37px;
   cursor: pointer;
   justify-content: center;
   padding-bottom: calc(0.5em - 1px);
@@ -73,11 +75,26 @@ body {
 }
 
   .button:hover {
-    background-color: rgb(167, 149, 149);
+    background-color: rgb(241, 114, 114);
 }   
 
-.is-dark {
-  background-color: #545151;
+.is-dark1 {
+  background-color: #128b07;
+  border-color: transparent;
+  color: #fff
+}
+.is-dark2 {
+  background-color: #910b0b;
+  border-color: transparent;
+  color: #fff
+}
+.is-dark3 {
+  background-color: #b6c909;
+  border-color: transparent;
+  color: #fff
+}
+.is-dark4 {
+  background-color: #000000;
   border-color: transparent;
   color: #fff
 }

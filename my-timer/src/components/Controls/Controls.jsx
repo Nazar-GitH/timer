@@ -12,7 +12,7 @@ export const Controls = ({
   <>
     <header className="header">
       <h1 className="stopwatch headline">
-        StopWatch
+        Timer
       </h1>
       <h1 className="stopwatch indicator">
         {setTimeFormat(time)}
@@ -20,16 +20,16 @@ export const Controls = ({
     </header>
     <section className="main">
       <div className="container">
-        <button type="button" className="button is-dark" onClick={start}>
+        <button type="button" className="button is-dark1" onClick={start}>
           Start
         </button>
-        <button type="button" className="button is-dark" onClick={stop}>
+        <button type="button" className="button is-dark2" onClick={stop}>
           Stop
         </button>
-        <button type="button" className="button is-dark" onClick={reset}>
+        <button type="button" className="button is-dark3" onClick={reset}>
           Reset
         </button>
-        <button type="button" className="button is-dark" onClick={wait}>
+        <button type="button" className="button is-dark4" onClick={wait}>
           Wait
         </button>
       </div>
