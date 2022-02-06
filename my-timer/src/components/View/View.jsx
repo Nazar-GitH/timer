@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import setTimeFormat from '../../utils/helpers';
+import timerSet from '../../totals/countTime';
 
 export const Controls = ({
   time,
@@ -11,25 +11,25 @@ export const Controls = ({
 }) => (
   <>
     <header className="header">
-      <h1 className="stopwatch headline">
+      <h1 className="timer headline">
         Timer
       </h1>
-      <h1 className="stopwatch indicator">
-        {setTimeFormat(time)}
+      <h1 className="timer view">
+        {timerSet(time)}
       </h1>
     </header>
     <section className="main">
-      <div className="container">
-        <button type="button" className="button is-dark1" onClick={start}>
+      <div className="button-container">
+        <button type="button" className="button color1" onClick={start}>
           Start
         </button>
-        <button type="button" className="button is-dark2" onClick={stop}>
+        <button type="button" className="button color2" onClick={stop}>
           Stop
         </button>
-        <button type="button" className="button is-dark3" onClick={reset}>
+        <button type="button" className="button color3" onClick={reset}>
           Reset
         </button>
-        <button type="button" className="button is-dark4" onClick={wait}>
+        <button type="button" className="button color4" onClick={wait}>
           Wait
         </button>
       </div>

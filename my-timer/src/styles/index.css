@@ -4,17 +4,11 @@ body {
   padding: 0;
 }
 
-.body {
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0 auto;
-  background: #dad5d5;
-  color: #4d4d4d;
-  min-width: 230px;
-  max-width: 550px;
-  font-weight: 300;
+.header {
+  padding-top: 1px;
+  background: rgb(148, 138, 138);
 }
-
-.stopwatch {
+.timer {
   position: relative;
   border-radius: 2px;
 }  
@@ -24,34 +18,33 @@ body {
   font-size: 100px;
   font-weight: 200;
   text-align: center;
-  color: rgba(70, 6, 90, 0.993);
+  color: rgba(0, 0, 0, 0.753);
   text-rendering: optimizeLegibility;
   margin: 20px auto;
 }
 
-.indicator {
-  background: #fff;
+.view {
+  background: rgba(78, 0, 0, 0.527);
   width: 100%;
   font-size: 100px;
   font-weight: 100;
   text-align: center;
   color: rgba(0, 0, 0, 0.753);
-  text-rendering: optimizeLegibility;
   box-shadow: 0 2px 4px 0 rgba(58, 57, 57, 0.5), 0 25px 50px 0 rgba(61, 59, 59, 0.712);
   margin: 0 auto;
 }
 
 .main {
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 408px;
   border: none;
   box-shadow: inset 0 -2px 1px rgb(0 0 0 / 3%);
-  background: #fff;
+  background: rgb(148, 138, 138);
 }
-.container{
+.button-container{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
   position: relative;
@@ -75,25 +68,25 @@ body {
 }
 
   .button:hover {
-    background-color: rgb(241, 114, 114);
+    background-color: rgb(101, 237, 247);
 }   
 
-.is-dark1 {
+.color1 {
   background-color: #128b07;
   border-color: transparent;
   color: #fff
 }
-.is-dark2 {
+.color2 {
   background-color: #910b0b;
   border-color: transparent;
   color: #fff
 }
-.is-dark3 {
+.color3 {
   background-color: #b6c909;
   border-color: transparent;
   color: #fff
 }
-.is-dark4 {
+.color4 {
   background-color: #000000;
   border-color: transparent;
   color: #fff

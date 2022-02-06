@@ -13,7 +13,7 @@ import {
   takeUntil,
 } from 'rxjs/operators';
 
-import { Controls } from './components/Controls';
+import { Controls } from './components/View';
 
 const App = () => {
   const [state, setState] = useState('stop');
